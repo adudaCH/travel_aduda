@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: #E5EEFF;
+}
+
+.inner-container{
+width: 70%;
+height: 70%;
+margin:  auto;
+display: grid;
+grid-template-columns:repeat(4,1fr);
+grid-template-rows:auto;
+& img{
+    z
+}
+}
+
+.titelBox{
+grid-area:"" ;
+border: solid black 1pt;
+grid-row:1/3 ;
+grid-column: 1/3;
+}
